@@ -5,7 +5,7 @@ function Get-Packages
 { 
     $packages = ("microsoft-windows-terminal",
                 "firefox","googlechrome","notepadplusplus",
-                "cutepdf", "paint.net", "git")
+                "cutepdf", "paint.net", "git","spotify")
 
     foreach($package in $packages)
     {
