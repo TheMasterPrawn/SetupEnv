@@ -11,7 +11,10 @@ New-Item -Path "c:\" -Name "vm" -ItemType "directory"
 .\packages\Get-Choco.ps1 # Package manager, must run first
 .\packages\Get-CommonTools.ps1
 .\packages\Get-DevTools.ps1
+.\packages\Get-GameStores.ps1
 
 # Mod windows
 .\config\Remove-Cortana.ps1
 .\config\UnpinApps.ps1
+.\config\Set-LocaleGB.ps1
+

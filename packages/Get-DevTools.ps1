@@ -1,10 +1,9 @@
 
-choco install VirtualBox -y
-choco install Vagrant -y
-choco install vagrant_plugins -y
-choco install packer -y
-choco install vagrant-manager -y
+$packages = ("VirtualBox",
+                "Vagrant","vagrant_plugins","packer",
+                "vagrant-manager", "git")
 
-# IDE
-choco install vscode -y
-
+foreach($package in $packages)
+{
+    choco install $package -y
+}
