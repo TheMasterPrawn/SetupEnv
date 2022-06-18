@@ -1,9 +1,13 @@
-
-
+<#
+.SYNOPSIS
+    Graps apps and tools I commonly use from day to day
+.NOTES
+    Requires chocolatey
+#>
     
 function Get-Packages
 { 
-    $packages = ("microsoft-windows-terminal",
+    $packages = ("microsoft-windows-terminal", # <-dubious this one, sometimes does not work, cant figure out why 
                 "firefox","googlechrome","notepadplusplus",
                 "cutepdf", "paint.net", "git","spotify")
 
@@ -11,10 +15,8 @@ function Get-Packages
     {
         choco install $package -y
     }
-
-    choco install sysinternals --params "/InstallDir:C:\tools" --ignore-checksum -y --force
-
 }
 
 Get-Packages
+choco install sysinternals --params "/InstallDir:C:\tools" --ignore-checksum -y --force
 
