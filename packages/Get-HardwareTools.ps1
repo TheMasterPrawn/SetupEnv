@@ -6,8 +6,8 @@
     Requires chocolatey
 #>
 choco install cpu-z -y 
-choco install msiafterburner -y 
+#choco install msiafterburner -y 
 choco install openhardwaremonitor -y 
-choco install bluescreenview -y 
+#choco install bluescreenview -y 
 choco install crystaldiskinfo -y
-
+choco install sysinternals --params "/InstallDir:C:\tools" --ignore-checksum -y --force

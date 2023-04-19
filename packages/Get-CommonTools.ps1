@@ -7,9 +7,8 @@
     
 function Get-Packages
 { 
-    $packages = ("microsoft-windows-terminal", # <-dubious this one, sometimes does not work, cant figure out why 
-                "firefox","googlechrome","notepadplusplus",
-                "cutepdf", "paint.net", "git","spotify")
+    $packages = ("firefox","googlechrome","notepadplusplus",
+                "cutepdf", "paint.net", "git","spotify","winaero-tweaker")
 
     foreach($package in $packages)
     {
@@ -18,5 +17,5 @@ function Get-Packages
 }
 
 Get-Packages
-choco install sysinternals --params "/InstallDir:C:\tools" --ignore-checksum -y --force
+
 
