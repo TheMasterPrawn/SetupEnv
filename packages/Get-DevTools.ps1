@@ -5,9 +5,7 @@
 .NOTES
     Requires chocolatey
 #>
-$packages = ("VirtualBox",
-                "Vagrant","vagrant_plugins","packer",
-                "vagrant-manager", "git", "github-desktop", "vscode")
+$packages = ("git", "github-desktop", "vscode")
 
 foreach($package in $packages)
 {
