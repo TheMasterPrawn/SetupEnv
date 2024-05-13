@@ -1,0 +1,41 @@
+{
+    "version": "1.0",
+    "applications": [
+        {
+            "id": "Microsoft.VisualStudioCode",
+            "name": "Visual Studio Code"
+        },
+        {
+            "id": "Mozilla.Firefox",
+            "name": "Mozilla Firefox"
+        },
+        {
+            "id": "Google.Chrome",
+            "name": "Google Chrome"
+        },
+        {
+            "id": "Notepad++.Notepad++",
+            "name": "Notepad++"
+        },
+        {
+            "id": "Spotify.Spotify",
+            "name": "Spotify"
+        },
+        {
+            "id": "Git.Git",
+            "name": "Git"
+        },
+        {
+          "id": "GitHub.GitHubDesktop",
+          "name": "Github Desktop"
+        },
+        {
+          "id": "dotPDNLLC.paintdotnet",
+          "name": "Paint.NET"
+        },
+        {
+          "id": "CPUID.HWMonitor",
+          "name": "Open Hardware Monitor"
+        }
+    ]
+}
