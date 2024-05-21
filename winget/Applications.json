@@ -38,12 +38,24 @@
           "name": "Steam"
         },
         {
-          "id": "Ookla.Speedtest.Desktop",
-          "name": "Ookla Speedtest Desktop"
+          "id": "Ookla.Speedtest.CLI",
+          "name": "Ookla Speedtest CLI"
         },
         {
           "id": "Nvidia.GeForceExperience",
           "name": "GeForce Experience"
+        },
+        {
+          "id": "Microsoft.PowerToys",
+          "name": "Microsoft PowerToys"
+        },
+        {
+          "id": "Discord.Discord",
+          "name": "Discord"
+        },
+        {
+          "id": "Nvidia.Broadcast",
+          "name": "Nvidia Broadcast"
         }
     ]
 }
