@@ -1,0 +1,13 @@
+{
+    "version": "1.0",
+    "applications": [
+        {
+            "id": "Microsoft.VisualStudioCode",
+            "name": "Visual Studio Code"
+        },
+        {
+            "id": "Google.Chrome",
+            "name": "Google Chrome"
+        }
+    ]
+}

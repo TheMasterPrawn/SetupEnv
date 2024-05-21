@@ -40,6 +40,10 @@
         {
           "id": "Ookla.Speedtest.Desktop",
           "name": "Ookla Speedtest Desktop"
+        },
+        {
+          "id": "Nvidia.GeForceExperience",
+          "name": "GeForce Experience"
         }
     ]
 }
