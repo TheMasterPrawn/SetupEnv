@@ -6,10 +6,6 @@
             "name": "Visual Studio Code"
         },
         {
-            "id": "Mozilla.Firefox",
-            "name": "Mozilla Firefox"
-        },
-        {
             "id": "Google.Chrome",
             "name": "Google Chrome"
         },
@@ -36,6 +32,14 @@
         {
           "id": "CPUID.HWMonitor",
           "name": "Open Hardware Monitor"
+        },
+        {
+          "id": "Valve.Steam",
+          "name": "Steam"
+        },
+        {
+          "id": "Ookla.Speedtest.Desktop",
+          "name": "Ookla Speedtest Desktop"
         }
     ]
 }

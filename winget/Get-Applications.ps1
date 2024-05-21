@@ -25,8 +25,7 @@ foreach ($app in $jsonContent.applications) {
     Write-Host "Installing $appName..." -ForegroundColor DarkCyan
 
     # Install the application using winget
-    winget install --id $appId --silent
-
+    winget install --id $appId --silent --accept-source-agreements --accept-package-agreements
     if ($?) {
         Write-Host "$appName installed successfully."
     }
