@@ -64,8 +64,18 @@
       "name": "EpicGames EpicGamesLauncher"
     },
     {
+      "id": "ElectronicArts.EADesktop",
+      "category": "Store",
+      "name": "ElectronicArts EA Desktop App"
+    },
+    {
       "id": "Logitech.GHUB",
       "name": "Logitech GHUB"
+    },
+    {
+      "id": "Docker.DockerDesktop",
+      "category": "DevEnv",
+      "name": "Docker Desktop"
     }
   ]
 }
