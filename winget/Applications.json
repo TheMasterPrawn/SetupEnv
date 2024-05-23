@@ -1,61 +1,71 @@
 {
-    "version": "1.0",
-    "applications": [
-        {
-            "id": "Microsoft.VisualStudioCode",
-            "name": "Visual Studio Code"
-        },
-        {
-            "id": "Google.Chrome",
-            "name": "Google Chrome"
-        },
-        {
-            "id": "Notepad++.Notepad++",
-            "name": "Notepad++"
-        },
-        {
-            "id": "Spotify.Spotify",
-            "name": "Spotify"
-        },
-        {
-            "id": "Git.Git",
-            "name": "Git"
-        },
-        {
-          "id": "GitHub.GitHubDesktop",
-          "name": "Github Desktop"
-        },
-        {
-          "id": "dotPDNLLC.paintdotnet",
-          "name": "Paint.NET"
-        },
-        {
-          "id": "CPUID.HWMonitor",
-          "name": "Open Hardware Monitor"
-        },
-        {
-          "id": "Valve.Steam",
-          "name": "Steam"
-        },
-        {
-          "id": "Ookla.Speedtest.CLI",
-          "name": "Ookla Speedtest CLI"
-        },
-        {
-          "id": "Nvidia.GeForceExperience",
-          "name": "GeForce Experience"
-        },
-        {
-          "id": "Microsoft.PowerToys",
-          "name": "Microsoft PowerToys"
-        },
-        {
-          "id": "Discord.Discord",
-          "name": "Discord"
-        },
-        {
-          "id": "Nvidia.Broadcast",
-          "name": "Nvidia Broadcast"
-        }
-    ]
+  "version": "1.0",
+  "applications": [
+    {
+      "id": "Microsoft.VisualStudioCode",
+      "name": "Visual Studio Code"
+    },
+    {
+      "id": "Google.Chrome",
+      "name": "Google Chrome"
+    },
+    {
+      "id": "Notepad++.Notepad++",
+      "name": "Notepad++"
+    },
+    {
+      "id": "Spotify.Spotify",
+      "name": "Spotify"
+    },
+    {
+      "id": "Git.Git",
+      "name": "Git"
+    },
+    {
+      "id": "GitHub.GitHubDesktop",
+      "name": "Github Desktop"
+    },
+    {
+      "id": "dotPDNLLC.paintdotnet",
+      "name": "Paint.NET"
+    },
+    {
+      "id": "CPUID.HWMonitor",
+      "name": "Open Hardware Monitor"
+    },
+    {
+      "id": "Valve.Steam",
+      "category": "Store",
+      "name": "Steam"
+    },
+    {
+      "id": "Ookla.Speedtest.CLI",
+      "name": "Ookla Speedtest CLI"
+    },
+    {
+      "id": "Nvidia.GeForceExperience",
+      "name": "GeForce Experience"
+    },
+    {
+      "id": "Microsoft.PowerToys",
+      "name": "Microsoft PowerToys"
+    },
+    {
+      "id": "Discord.Discord",
+      "name": "Discord"
+    },
+    {
+      "id": "Nvidia.Broadcast",
+      "name": "Nvidia Broadcast"
+    },
+    {
+      "id": "EpicGames.EpicGamesLauncher",
+      "category": "Store",
+      "name": "EpicGames EpicGamesLauncher"
+    },
+    {
+      "id": "Logitech.GHUB",
+      "name": "Logitech GHUB"
+    }
+  ]
 }

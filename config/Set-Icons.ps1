@@ -16,5 +16,5 @@ $v = "C:\dev\ico\developer.ico"
 $WebClient = New-Object System.Net.WebClient
 $WebClient.DownloadFile($d,$v)
 
-C:\dev\ico\Set-FolderIcon.ps1 -Icon "C:\dev\ico\smilefolder.ico" -Path "C:\dev"
-C:\dev\ico\Set-FolderIcon.ps1 -Icon "C:\dev\ico\developer.ico" -Path "C:\vm"
+. C:\dev\ico\Set-FolderIcon.ps1 -Icon "C:\dev\ico\smilefolder.ico" -Path "C:\dev"
+. C:\dev\ico\Set-FolderIcon.ps1 -Icon "C:\dev\ico\developer.ico" -Path "C:\vm"
