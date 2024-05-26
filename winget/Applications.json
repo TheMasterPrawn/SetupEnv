@@ -76,6 +76,10 @@
       "id": "Docker.DockerDesktop",
       "category": "DevEnv",
       "name": "Docker Desktop"
+    },
+    {
+      "id": "2BrightSparks.SyncBackFree",
+      "name": "SyncBackFree"
     }
   ]
 }
