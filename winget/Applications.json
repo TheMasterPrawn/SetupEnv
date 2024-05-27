@@ -80,6 +80,10 @@
     {
       "id": "2BrightSparks.SyncBackFree",
       "name": "SyncBackFree"
+    },
+    {
+      "id": "OBSProject.OBSStudio",
+      "name": "OBS Studio"
     }
   ]
 }
