@@ -1,6 +1,15 @@
 param (
-    [string]$jsonFilePath = "$PSScriptRoot\Applications.json"
+    [string]$jsonFilePath = "$PSScriptRoot\Applications.json",
+    [bool]$openLog = $false
 )
+$guid = (New-Guid).Guid
+$base64 = [system.convert]::ToBase64String(([GUID]$guid).ToByteArray())
+$base64
+
+
+$log = "$($env:TEMP)\Get-Applications-$base64.log"
+
+Start-Transcript $log
 
 # Check if the jsonFilePath is provided
 if (-not $jsonFilePath) {
@@ -33,3 +42,7 @@ foreach ($app in $jsonContent.applications) {
         Write-Host "Failed to install $appName."
     }
 }
+
+Stop-Transcript
+
+If($openLog) { notepad.exe $log }

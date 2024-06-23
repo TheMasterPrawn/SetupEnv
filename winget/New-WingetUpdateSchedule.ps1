@@ -11,13 +11,14 @@ $Time = New-ScheduledTaskTrigger -At 04:00 -Daily
 $Actions = @(
     # Update all sources, so that winget can find the latest version of the packages
     New-ScheduledTaskAction -Execute "$WinGet" -Argument "source update"
-    New-ScheduledTaskAction -Execute "$Pwsh" -Argument "`"$ScriptPath`"}`""
+    New-ScheduledTaskAction -Execute "$Pwsh" -Argument $ScriptPath
 )
 
 $Settings = New-ScheduledTaskSettingsSet -WakeToRun:$false `
     -MultipleInstances IgnoreNew `
     -RunOnlyIfNetworkAvailable:$true `
     -StartWhenAvailable:$true
+
 Register-ScheduledTask -TaskName "Update winget" -TaskPath Updates `
     -Trigger $Time -Action $Actions -Settings $Settings `
     -RunLevel Highest # Remove this one if you don't want to run the task as admin

@@ -84,6 +84,21 @@
     {
       "id": "OBSProject.OBSStudio",
       "name": "OBS Studio"
+    },
+    {
+      "id": "Ubisoft.Connect",
+      "category": "Store",
+      "name": "Ubisoft Connect"
+    },
+    {
+      "id": "CPUID.CPU-Z",
+      "category": "Utility",
+      "name": "CPU Z"
+    },
+    {
+      "id": "ProtonTechnologies.ProtonVPN",
+      "category": "Networking",
+      "name": "Proton VPN"
     }
   ]
 }
